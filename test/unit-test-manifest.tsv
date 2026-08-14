@@ -7,9 +7,9 @@ p101_setstate	c:@F@p101_setstate	fault	test/test_fault_wrappers_p101_random_stdl
 p101_y0	c:@F@p101_y0	fault	test/test_fault_wrappers_p101_math_math.c
 p101_y1	c:@F@p101_y1	fault	test/test_fault_wrappers_p101_math_math.c
 p101_yn	c:@F@p101_yn	fault	test/test_fault_wrappers_p101_math_math.c
-p101_arc4random	c:@F@p101_arc4random	behavior	test/test_behavior.c
-p101_arc4random_buf	c:@F@p101_arc4random_buf	behavior	test/test_behavior.c
-p101_arc4random_uniform	c:@F@p101_arc4random_uniform	behavior	test/test_behavior.c
-p101_seed48	c:@F@p101_seed48	behavior	test/test_behavior.c
-p101_srand48	c:@F@p101_srand48	behavior	test/test_behavior.c
-p101_srandom	c:@F@p101_srandom	behavior	test/test_behavior.c
+p101_arc4random	c:@F@p101_arc4random	behavior-existing	test/random/test_behavior.c
+p101_arc4random_buf	c:@F@p101_arc4random_buf	behavior-existing	test/random/test_behavior.c
+p101_arc4random_uniform	c:@F@p101_arc4random_uniform	behavior-existing	test/random/test_behavior.c
+p101_seed48	c:@F@p101_seed48	behavior-existing	test/random/test_behavior.c
+p101_srand48	c:@F@p101_srand48	behavior-existing	test/random/test_behavior.c
+p101_srandom	c:@F@p101_srandom	behavior-existing	test/random/test_behavior.c
